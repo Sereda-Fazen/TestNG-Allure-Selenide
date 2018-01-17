@@ -13,9 +13,8 @@
         <aspectj.version>1.7.4</aspectj.version>
         <selenium.version>2.53.1</selenium.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-        <xvfb.display>10</xvfb.display>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -47,11 +46,6 @@
             <version>1.7.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.github.zetten</groupId>
-            <artifactId>xvfb-maven-plugin</artifactId>
-            <version>1.0.2</version>
-        </dependency>
 
         <dependency>
             <groupId>javax.mail</groupId>
@@ -110,11 +104,6 @@
                 </configuration>
             </plugin>
         </plugins>
-
-
-
-
-
     </build>
 
     <reporting>
