@@ -63,6 +63,8 @@ public class Tests extends BeforeTests {
         Thread.sleep(3000);
         cleaningMailbox();
 
+        steps = new Steps();
+        steps.screenShot("password.png");
 
     }
 
